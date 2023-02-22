@@ -9,4 +9,4 @@ Installation and pack development docs are on the [wiki](https://github.com/shiz
 ![pack](https://user-images.githubusercontent.com/51480483/220428014-9d69ef11-4b1e-4731-aaae-1bba9c154c54.png)
 
 # Add-ons
-The repo with all the compatibility add-ons is located here *TODO*
+The repo with all the compatibility add-ons is located [here](https://github.com/shizotoaster/uap-addons)
