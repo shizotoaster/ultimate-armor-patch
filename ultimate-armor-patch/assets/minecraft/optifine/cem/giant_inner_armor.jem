@@ -1,0 +1,118 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 8, 8],
+					"uvNorth": [8, 8, 16, 16],
+					"uvEast": [0, 8, 8, 16],
+					"uvSouth": [24, 8, 32, 16],
+					"uvWest": [16, 8, 24, 16],
+					"uvUp": [16, 8, 8, 0],
+					"uvDown": [24, 0, 16, 8],
+					"sizeAdd": 0.5
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 12, -2, 8, 12, 4],
+					"uvNorth": [20, 20, 28, 32],
+					"uvEast": [16, 20, 20, 32],
+					"uvSouth": [32, 20, 40, 32],
+					"uvWest": [28, 20, 32, 32],
+					"uvUp": [28, 20, 20, 16],
+					"uvDown": [36, 16, 28, 20],
+					"sizeAdd": 0.5
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"submodels": [
+				{
+					"id": "left_arm_sub_0",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0],
+			"submodels": [
+				{
+					"id": "left_leg2",
+					"invertAxis": "xy",
+					"translate": [-2, 12, 0],
+					"submodels": [
+						{
+							"id": "left_leg_sub_1",
+							"invertAxis": "xy",
+							"translate": [2, -12, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, 0, -2, 4, 12, 4],
+									"uvNorth": [8, 20, 4, 32],
+									"uvEast": [12, 20, 8, 32],
+									"uvSouth": [16, 20, 12, 32],
+									"uvWest": [4, 20, 0, 32],
+									"uvUp": [4, 20, 8, 16],
+									"uvDown": [8, 16, 12, 20],
+									"sizeAdd": 0.5
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"submodels": [
+				{
+					"id": "right_leg2",
+					"invertAxis": "xy",
+					"translate": [2, 12, 0],
+					"boxes": [
+						{
+							"coordinates": [-2, -12, -2, 4, 12, 4],
+							"uvNorth": [44, 20, 48, 32],
+							"uvEast": [40, 20, 44, 32],
+							"uvSouth": [52, 20, 56, 32],
+							"uvWest": [48, 20, 52, 32],
+							"uvUp": [48, 20, 44, 16],
+							"uvDown": [52, 16, 48, 20],
+							"sizeAdd": 0.5
+						}
+					]
+				}
+			]
+		}
+	]
+}

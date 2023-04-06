@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Some nice patches for your armor model",
+        "description": "Some nice patches for your armor model. Now with Entity support!",
         "pack_format": 9
     }
 }
